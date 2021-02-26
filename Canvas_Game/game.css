@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(255, 228, 196, 0.521);
+}
+.container{
+    margin: 40px auto auto auto;
+    max-width: 500px;
+    max-height: 400px;
+}
+canvas{
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin:auto;
+    border: 4px pink solid;
+}
+div.score-time{
+    position: relative;
+    top: -396.7px;
+    left: 3.5px;
+    width: 500px;
+    border-bottom: 4px pink solid;
+    text-align: center;
+    padding-bottom: 5px;
+    z-index: 10000;
+}
+#score{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+}
+#time{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+}
+.game-features{
+    width: 100px;
+    margin: 10px auto auto auto;
+    text-align: center;
+}
+.game-features button{
+    background-color: rgb(206, 206, 24);
+    border-radius: 5px;
+    outline: none;
+    opacity: .8;
+}
+.game-features button:hover{
+    background-color: rgb(253, 253, 0);
+    opacity: 1;
+}
